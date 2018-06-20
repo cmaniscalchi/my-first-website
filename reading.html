@@ -4,37 +4,45 @@
     <meta charset="utf-8">
     <title>My First Website - My Reading</title>
   </head>
+
   <body>
+    <header>
+      <h1>My First Website!</h1>
+      <h2>My Reading</h2>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="https://brooklynreads.tumblr.com" target="_blank">Tumblr</a>
+      </nav>
+    </header>
 
-    <h1>My First Website!</h1>
-    <h2>My Reading</h2>
+    <section id="book-photo">
+      <figure>
+        <img src="images/The-Body-Artist.jpg" height=500 alt="The Body Artist" title="Stoop Find: <em>The Body Artist</em> by Don DeLillo">
+        <figcaption>Stoop Find: <em>The Body Artist</em> by Don DeLillo - photo by me</figcaption>
+      </figure>
+    </section>
 
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="https://brooklynreads.tumblr.com" target="_blank">Tumblr</a>
-    <br>
+    <section id="books-reading">
+      <table>
+        <tr>
+          <th>Author</th>
+          <th>Title</th>
+        </tr>
+        <tr>
+          <td>Jerzy Kosiński</td>
+          <td><em>The Painted Bird</em></td>
+        </tr>
+        <tr>
+          <td>Leonora Carrington</td>
+          <td><em>The Complete Stories</em></td>
+        </tr>
+      </table>
+    </section>
 
-    <!--
-    foldername/ = go inside folder
-    filename = use a file in current folder
-    ../ leave current folder and go up to parent
-    ../../ go up by two parent folders
-    etc.
-  -->
-
-   <img src="images/The-Body-Artist.jpg" height=500 alt="The Body Artist" title="Stoop Find: <em>The Body Artist</em> by Don DeLillo">
-
-    <table>
-      <tr>
-        <th>Author</th><th>Title</th>
-      </tr>
-      <tr>
-        <td>Jerzy Kosiński</td><td><em>The Painted Bird</em></td>
-      </tr>
-      <tr>
-        <td>Leonora Carrington</td><td><em>The Complete Stories</em></td>
-      </tr>
-    </table>
+    <footer>
+      &copy; 2018 Me. All rights reserved.
+    </footer>
 
   </body>
 </html>
