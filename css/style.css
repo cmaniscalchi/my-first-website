@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500,700,800');
+
+/* CSS Syntax:
+
+selector {
+  property: value;
+  property: value;
+}
+*/
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;*/
+  font: normal 0.75em/1.5em;
+  color: #777;
+}
+
+/* class selector - any elemt on a page with a particular class*/
+.green-text {
+  font: 2.5em;
+  color: #00CE8D;
+  text-decoration: none;
+}
+
+/* id selector - one element per page*/
+#logo {
+
+}
+
+/* descendant selector*/
+#logo h1 {
+
+}
+
+/* pseudo selector*/
+a:link, a:visited {
+  color: #00CEE3;
+  text-decoration: none;
+}

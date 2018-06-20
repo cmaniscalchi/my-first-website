@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>My First Website - My Reading</title>
+    <link rel="stylesheet" href="http:https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
   </head>
 
   <body>
     <header>
       <h1>My First Website!</h1>
-      <h2>My Reading</h2>
+      <h2 class="green-text">My Reading</h2>
       <nav>
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
@@ -16,28 +19,30 @@
       </nav>
     </header>
 
-    <section id="book-photo">
-      <figure>
-        <img src="images/The-Body-Artist.jpg" height=500 alt="The Body Artist" title="Stoop Find: <em>The Body Artist</em> by Don DeLillo">
-        <figcaption>Stoop Find: <em>The Body Artist</em> by Don DeLillo - photo by me</figcaption>
-      </figure>
-    </section>
+    <section id="books">
+      <div>
+        <figure>
+          <img src="images/The-Body-Artist.jpg" height=500 alt="The Body Artist" title="Stoop Find: <em>The Body Artist</em> by Don DeLillo">
+          <figcaption>Stoop Find: <em>The Body Artist</em> by Don DeLillo - photo by me</figcaption>
+        </figure>
+      </div>
 
-    <section id="books-reading">
-      <table>
-        <tr>
-          <th>Author</th>
-          <th>Title</th>
-        </tr>
-        <tr>
-          <td>Jerzy Kosiński</td>
-          <td><em>The Painted Bird</em></td>
-        </tr>
-        <tr>
-          <td>Leonora Carrington</td>
-          <td><em>The Complete Stories</em></td>
-        </tr>
-      </table>
+      <div>
+        <table>
+          <tr>
+            <th>Author</th>
+            <th>Title</th>
+          </tr>
+          <tr>
+            <td>Jerzy Kosiński</td>
+            <td><em>The Painted Bird</em></td>
+          </tr>
+          <tr>
+            <td>Leonora Carrington</td>
+            <td><em>The Complete Stories</em></td>
+          </tr>
+        </table>
+      </div>
     </section>
 
     <footer>
